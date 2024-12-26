@@ -1,0 +1,155 @@
+@media screen and (max-width:689px){
+    .links{
+        display: none;
+    }
+    .menu-hamburguer{
+        display: flex;
+    }
+    .total{
+        display: none;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width:479px){
+    .menu{
+        height: 60px;
+    }
+    .logo{
+        height: 50px;
+    }
+    /*----------------------------------*/
+    .titulo{
+        font-size: 40px;
+    }
+    .icone{
+        height: 50px;
+    }
+    .container{
+        width: 95%;
+    }
+    .container-interno-map{
+        gap: 30px;
+    }
+    #A1, #A3{
+        flex-direction: column;
+    }
+    #A2, #A4{
+        flex-direction: column-reverse;
+    }
+    .texto{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    iframe{
+        height: 350px;
+        width: 100%;
+    }
+    .imagem-fabrica, .imagem-fabrica-2{
+        width: 100%;
+    }
+    .imagem-fabrica-2{
+        height: 300px;
+    }
+    /*----------------------------------*/
+    footer{
+        gap: 50px;
+    }
+    .logo-frase{
+        align-items: center;
+        text-align: center;
+    }
+    .logo-frase img{
+        width: 230px;
+    }
+    .paginacao{
+        display: none;
+    }
+    .w-i-f-y{
+        height: 45px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:689px){ 
+    .menu{
+        height: 60px;
+    }
+    .logo{
+        height: 50px;
+    }
+    /*----------------------------------*/
+    .titulo{
+        font-size: 40px;
+    }
+    .container{
+        width: 95%;
+    }
+    .container-interno-map{
+        gap: 30px;
+    }
+    #A1, #A3{
+        flex-direction: column;
+    }
+    #A2, #A4{
+        flex-direction: column-reverse;
+    }
+    iframe{
+        height: 400px;
+        width: 100%;
+    }
+    /*----------------------------------*/
+    footer{
+        gap: 50px;
+    }
+    .logo-frase{
+        align-items: center;
+        text-align: center;
+    }
+    .logo-frase img{
+        width: 230px;
+    }
+    .paginacao{
+        display: none;
+    }
+    .w-i-f-y{
+        height: 45px;
+    }
+}
+
+@media screen and (min-width:690px) and (max-width:849px){
+    .container{
+        width: 95%;
+    }
+    .container-interno-map{
+        gap: 15px;
+    }
+    .texto{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    iframe{
+        height: 400px;
+    }
+    .imagem-fabrica, .imagem-fabrica-2{
+        width: 350px;
+    }
+    .imagem-fabrica-2{
+        height: 400px;
+    }
+    /*----------------------------------*/
+    .logo-frase img{
+        width: 250px;
+    }
+    footer{
+        gap: 35px;
+    }
+}
+
+@media screen and (min-width:850px) and (max-width:1000px){
+    .container{
+        width: 95%;
+    }
+    /*----------------------------------*/
+    .logo-frase img{
+        width: 250px;
+    }
+}

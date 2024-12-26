@@ -1,0 +1,232 @@
+@media screen and (max-width:689px){
+    .links{
+        display: none;
+    }
+    .menu-hamburguer{
+        display: flex;
+    }
+    .total{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .first{
+        top: 350px;
+        left: 0px;
+        align-items: center;
+    }
+    .frase{
+        width:100%;
+        padding: 0px 50px;
+        text-align: center;
+        font-size: 25px;
+    } 
+}
+
+@media screen and (min-width:350px) and (max-width:479px){
+    .first{
+        top: 200px;
+    }
+    #logo{
+        height: 85px;
+    }
+    .frase{
+        padding: 0px 20px;
+    }
+    .menu{
+        height: 60px;
+    }
+    .logo{
+        height: 50px;
+    }
+    /*----------------------------------*/
+    .sobre{
+        height: 100%;
+        padding: 50px 10px;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .sobre img{
+        height: 345px;
+        width: 345px;
+    }
+    .sobre-interno{
+        text-align: center;
+    }
+    .sobre-interno p{
+        font-size: 16px;
+        word-spacing: 2px;
+        line-height: 20px;
+    }
+    /*----------------------------------*/
+    .numeros h1, .feedbacks h1{
+        padding: 50px 0px 100px 0px;
+        text-align: center;
+        font-size:30px;
+    }
+    .trocas{
+        width: 100%;
+        right: 0px;
+        margin-top: 155px;
+    }
+    .esquerda{
+        position: relative;
+        left: 15px;
+    }
+    .feedbacks-container{
+        height: 400px;
+    }
+    .feedback{
+        padding: 30px 10px;
+        max-width: 500px;
+        align-items: start;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .personagem{
+        height: 100px;
+    }
+    .feedback p{
+        font-size: 16px;
+        text-align: center;
+    }
+    /*----------------------------------*/
+    footer{
+        gap: 50px;
+    }
+    .logo-frase{
+        align-items: center;
+        text-align: center;
+    }
+    .logo-frase img{
+        width: 230px;
+    }
+    .paginacao{
+        display: none;
+    }
+    .w-i-f-y{
+        height: 45px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:689px){
+    .frase{
+        padding: 0px 20px;
+    } 
+    .menu{
+        height: 60px;
+    }
+    .logo{
+        height: 50px;
+    }
+    /*----------------------------------*/
+    .sobre{
+        padding: 50px 10px;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .sobre img{
+        height: 400px;
+        width: 400px;
+    }
+    .sobre-interno{
+        text-align: center;
+    }
+    .sobre-interno p{
+        font-size: 18px;
+        word-spacing: 2px;
+        line-height: 20px;
+    }
+    /*----------------------------------*/
+    .numeros h1, .feedbacks h1{
+        padding: 50px 0px 100px 0px;
+        text-align: center;
+    }
+    .trocas{
+        width: 100%;
+        right: 0px;
+        margin-top: 155px;
+    }
+    .esquerda{
+        position: relative;
+        left: 15px;
+    }
+    .feedback{
+        padding: 30px;
+        max-width: 500px;
+        align-items: start;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .feedback p{
+        font-size: 16px;
+        text-align: center;
+    }
+    /*----------------------------------*/
+    footer{
+        gap: 50px;
+    }
+    .logo-frase{
+        align-items: center;
+        text-align: center;
+    }
+    .logo-frase img{
+        width: 230px;
+    }
+    .paginacao{
+        display: none;
+    }
+    .w-i-f-y{
+        height: 45px;
+    }
+}
+
+@media screen and (min-width:690px) and (max-width:849px){
+    .frase{
+        padding: 0px 50px;
+    }
+    /*----------------------------------*/
+    .sobre{
+        padding: 50px 10px;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .sobre-interno{
+        text-align: center;
+    }
+    /*----------------------------------*/
+    .numeros h1, .feedbacks h1{
+        padding: 50px 100px 100px 50px;
+    }
+    .trocas{
+        right: 30px;
+        margin-top: 55px;
+    }
+    /*----------------------------------*/
+    .logo-frase img{
+        width: 250px;
+    }
+    footer{
+        gap: 35px;
+    }
+}
+
+@media screen and (min-width:850px) and (max-width:1000px){
+    .sobre{
+        padding: 50px 10px;
+        gap: 20px;
+    }
+    .sobre img{
+        height: 400px;
+        width: 400px;
+    }
+    .sobre-interno p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    /*----------------------------------*/
+    .logo-frase img{
+        width: 250px;
+    }
+}
